@@ -92,7 +92,7 @@
 					addAnimal($newCountCow,$newCountChicken);
 				}
 		else if ($collect != 'yes'){
-			echo "Ошибка! Неправильно набранная команда!\n";
+			echo "Ошибка! Неправильно набранна команда!\n";
 		}
 	}
 ?>
