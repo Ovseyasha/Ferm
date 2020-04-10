@@ -64,8 +64,8 @@
 	echo "\nКоличество коров - ".$newCountCow."\n";
 	echo 'Количество куриц - '.	$newCountChicken."\n\n";
 	//Сбор
-	$d = 0;
-	while ($d != 1) {
+	
+	while (true) {
 		$collect = readline ("Cобрать продукцию - collect, Изменить ко-во жив-ых - edit, Выйти - exit: ");
 		if ($collect == 'collect'){
       Cow::collectCow($newCountCow);
